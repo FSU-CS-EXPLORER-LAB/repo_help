@@ -25,11 +25,11 @@ git pull origin master
 ```
 
 ``` 
-git clone ??????
+git clone <url>
 ```
 
 ```
-git remote origin ?????
+git remote add origin <url>
 ```
 
 ```
@@ -42,9 +42,15 @@ git pull
 ```
 
 
-# Git Commands
+# Process to initialize a Git repository
 
-Git is a simple version control program. We'll talk about remote repositories, but most of git is made for local uses.
+Git is a simple version control program. We'll talk about hor to set up a remote repository.
+You must first make an empty repository in github.com, which will give an url for the repository.
+For example, after make a Topsim repository under FSU-CS-EXPLORER-LAB on github.com, the url would be 
+
+https://github.com/FSU-CS-EXPLORER-LAB/Topsim.git
+
+After the url is there, the follow command sequence initializes and populates the repository (from local files)
 
 ## Init
 First, you need to initialize the project as a git repo. You can do this by typing
