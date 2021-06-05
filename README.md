@@ -94,7 +94,9 @@ git remote add origin <url>
 
 You can get <url> from the remote repo's website. In case of Topsim, it is
 ```
-https://github.com/FSU-CS-EXPLORER-LAB/Topsim.git
+git@github.com:FSU-CS-EXPLORER-LAB/Topsim.git  (with ssh)
+ 
+https://github.com/FSU-CS-EXPLORER-LAB/Topsim.git (with https)
 ```
 
 And finally, we can push our commits to the remote repo by typing
